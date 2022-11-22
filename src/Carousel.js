@@ -20,7 +20,7 @@ export default function Carousel() {
         <div className="dot-container">
           <Dot slide={0}></Dot>
           <Dot slide={1}></Dot>
-          <Dot slide={2}></Dot>s
+          <Dot slide={2}></Dot>
         </div>
       </CarouselProvider>
     </div>
