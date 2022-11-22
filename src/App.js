@@ -1,12 +1,13 @@
+import React from "react";
 import "./App.css";
 import Carousel from "./Carousel";
+import Swipe from "./swipe";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <Carousel />
+      {/* <Carousel /> */}
+      <Swipe />
     </div>
   );
 }
-
-export default App;
